@@ -8,8 +8,6 @@ import projects.exception.DbException;
 import projects.service.ProjectService;
 import projects.entity.Project;
 
-//import projects.dao.DbConnection;
-
 public class ProjectsApp {
 
 	private Scanner scanner = new Scanner(System.in);
@@ -47,7 +45,7 @@ public class ProjectsApp {
 					break;
 				}
 			} catch (Exception e) {
-				System.out.println("\nError: " + e + " Try again.");
+				System.out.println("\nError: " + e);
 			}
 		}
 
